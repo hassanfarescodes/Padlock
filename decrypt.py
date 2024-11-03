@@ -62,7 +62,7 @@ def main():
         if(not is_hex(encrypted)):
             print("\n[!] FATAL: ENCRYPTED MESSAGE IS NOT IN HEX FORMAT!")
             return -1
-        in_key = int(input("\n[*] Enter which key to use: "))
+        in_key = int(input("\n[*] Enter which key to use (number line): "))
         if(in_key > line or in_key <= 0):
             print("\n[*] INVALID KEY SELECTION!")
             return -1
